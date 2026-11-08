@@ -1,23 +1,19 @@
-name: femdom_alarm
-description: A Femdom-themed alarm app. Mistress decides when you wake.
-publish_to: 'none'
+name: mistress_alarm
+description: A bold, themed alarm app with reliable Android scheduling.
+publish_to: none
 version: 1.0.0+1
-
 environment:
-  sdk: '>=3.0.0 <4.0.0'
-
+  sdk: '>=3.3.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
-  alarm: ^5.0.0
+  alarm: ^5.1.0
   permission_handler: ^11.3.1
-  shared_preferences: ^2.2.3
+  shared_preferences: ^2.3.2
   intl: ^0.19.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-
 flutter:
   uses-material-design: true
