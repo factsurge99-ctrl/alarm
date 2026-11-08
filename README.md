@@ -1,29 +1,9 @@
-# 👑 Femdom Alarm
+# Mistress Alarm
 
-**Wake up when Mistress says so.**
+A dark red themed alarm app with custom wake-up commands, multiple alarms, vibration, and a dismiss action.
 
-A cruel, beautiful, female-supremacy themed alarm app.  
-No soft gentle alarms. Only commands.
+## Download the Android APK
+After the build completes, open this repository's **Actions** tab, select the latest successful **Build Android APK** run, then download the `mistress-alarm-android` artifact. Unzip it and open `app-release.apk` on your Android phone. Approve installation if Android asks, and allow notifications and alarms/reminders.
 
-### Features
-- Dark dominant red/black UI
-- Multiple commanding alarm messages
-- Hard-to-dismiss challenges (math + obedience tasks)
-- Snooze only if Mistress allows it
-- Custom alarm labels ("Kneel", "Serve", "Obey", etc.)
-- Vibration + loud volume on ring
-
-### Tech
-- Flutter
-- `alarm` package for real background alarms
-- Works on Android (best) and iOS
-
-### Setup
-1. Install Flutter
-2. Clone this repo
-3. `flutter pub get`
-4. `flutter run`
-
-For Android you may need to allow "Alarms & reminders" and disable battery optimization.
-
-Made for good boys who need a firm hand in the morning.
+## Build locally
+Install Flutter, then run `flutter pub get` and `flutter build apk --release`.
